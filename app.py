@@ -22,3 +22,6 @@ def atm_withdrawal(withdrawal_amount):
 # Test the ATM withdrawal system
 withdrawal_amount = int(input("Enter the amount to withdraw: "))
 atm_withdrawal(withdrawal_amount)
+
+def check_balance(balance):
+    print(f"Available balance: {balance}")
