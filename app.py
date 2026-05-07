@@ -1,4 +1,6 @@
 def atm_withdrawal(withdrawal_amount):
+    print("Welcome to Python ATM System")
+
     current_balance = 5000
     if withdrawal_amount <= 0:
         print("Error: Withdrawal amount must be greater than 0")
