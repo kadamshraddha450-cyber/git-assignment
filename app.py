@@ -15,6 +15,7 @@ def atm_withdrawal(withdrawal_amount):
         print(f"Withdrawal successful. Amount: {withdrawal_amount}"
               f" Remaining balance: {current_balance}")
         return True
+    print("Thank you for using our ATM")
     return False
 
 
