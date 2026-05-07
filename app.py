@@ -25,3 +25,4 @@ atm_withdrawal(withdrawal_amount)
 
 def check_balance(balance):
     print(f"Available balance: {balance}")
+    print("ATM System Updated")
